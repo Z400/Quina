@@ -2,26 +2,35 @@
     
     class ConexaoDB
     {
-       
+        private $drive;
+        private $porta;
+        private $banco;
+        private $user;
+        private $senha;
+        
         function __construct()
         {
-
+            
+            $this->drive = "mysql:host=localhost;";
+            $this->porta = "port=3306;";
+            $this->banco = "dbname=quina";
+            $this->user = "root";
+            $this->senha = "";
             $this->conexao();
         }
 
         function conexao(){
             try{
 
-                $db = new PDO('mysql:host=localhost;port=3306;dbname=quina','root','');
+                $db = new PDO($this->drive.$this->porta.$this->banco, $this->user, $this->senha);
                 if ($db){
-                    echo "Ok";
+//                    echo "Ok";
                 }
             }catch (Exception $e){
-                echo "erro";
+                echo "<p id='teste'>Erro: ".$e->getMessage()."</p>";
+    
             }
 
         }
     }
-    
-    $con = new ConexaoDB();
     

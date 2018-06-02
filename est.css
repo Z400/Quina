@@ -1,23 +1,94 @@
+body{
+    background-color: #c2c2c2;
+}
+.btn {
+    display: inline-block;
+    /*position: absolute;*/
+    min-width: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 0.8125rem;
+    border-radius: 0px;
+    float: right;
+    /*margin-top: 20px;*/
+    transition: .5s;
+    border: 1px solid #e74c3c;
+    font-family: 'open_sansbold';
+    padding: 0.8rem 3rem;
+    transition: all 0.6s;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.textBtn{
+    border: none;
+    border-radius: 4px;
+    width: 40%;
+    position: absolute;
+    height: 50px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+
+.resposta{
+    padding: 1%;
+    background-color: #e74c3c;
+    width: 30%;
+    position: relative;
+    margin:auto;
+    height: 100px;
+    border-radius: 15px;
+}
+
+input[type="text"]{
+    background-color: #c2c2c2;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    padding: 4px;
+    text-align: center;
+    font-family: 'open_sansbold';
+    font-size: 1.5em;
+}
+
+.quinaForm{
+    width: 100%;
+    height: 200px;
+}
 .quina {
-margin: auto;
-border-radius: 7px;
-margin-top: 170px;
-margin-top: 200px;
-background-color: #2F4F4F	;
-width: 300px;
-height: 150px;
+    background-image: url("img/quina.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin: auto;
+    width: 50%;
+    height: 400px;
 }
 
-.quina [type='submit'] {
-margin-top: 65px;
-margin-left: 10px;
-border-radius: 4px;
-}
-.quina [type='text'] {
-border-radius: 4px;
-margin-left: 30px;
+.m_t_10 {
+    margin-right: 10px;
 }
 
-.quina label{
-margin-left: 120px;
+.btn-lg {
+    background: #e74c3c;
+    padding: 1.125rem 3rem;
+}
+
+#teste{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #e74c3c;
+    color: #030c01;
+    border-radius: 2px;
+    text-align: center;
 }
