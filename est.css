@@ -1,0 +1,23 @@
+.quina {
+margin: auto;
+border-radius: 7px;
+margin-top: 170px;
+margin-top: 200px;
+background-color: #2F4F4F	;
+width: 300px;
+height: 150px;
+}
+
+.quina [type='submit'] {
+margin-top: 65px;
+margin-left: 10px;
+border-radius: 4px;
+}
+.quina [type='text'] {
+border-radius: 4px;
+margin-left: 30px;
+}
+
+.quina label{
+margin-left: 120px;
+}
