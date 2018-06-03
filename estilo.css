@@ -43,15 +43,23 @@ body{
     background-color: #e74c3c;
     width: 30%;
     position: relative;
-    margin:auto;
+    margin-left: 210px;
     height: 100px;
     border-radius: 15px;
+    margin-top: -15px;
 }
 
-input[type="text"]{
+.resposta H3{
+  margin-top: -10px;
+  margin-left: 135px;
+  font-style: normal;
+  font-size: 1.3em;
+}
+
+.resposta input[type="text"]{
     background-color: #c2c2c2;
     border: none;
-    width: 100%;
+    width: 99%;
     height: 30px;
     border-radius: 7px;
     padding: 4px;
@@ -59,6 +67,60 @@ input[type="text"]{
     font-family: 'open_sansbold';
     font-size: 1.5em;
 }
+
+
+.cadastrar {
+    padding: 1%;
+    background-color: #e74c3c;
+    width: 425px;
+    position: relative;
+    margin-left: 690px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: -126px;
+}
+
+
+  .cadastrar h3{
+    margin-top: -10px;
+    margin-left: 155px;
+    font-style: normal;
+    font-size: 1.3em;
+  }
+
+  .cadastrar input[type='text']{
+        background-color: #c2c2c2;
+        border: none;
+        margin-left: 5px;
+        margin-top: 1px;
+        width: 96%;
+        height: 30px;
+        border-radius: 7px;
+        padding: 4px;
+        text-align: center;
+        font-family: 'open_sansbold';
+        font-size: 1.5em;
+    }
+
+    .resultado input[type="submit"]{
+      font-size: 1em;
+      width: 140px;
+      height: 50px;
+    }
+
+#cadastrar123 {
+margin-top: 80px;
+margin-left: -30px;
+background-color: #E74C3C;
+cursor: pointer;
+}
+
+.btn-lg {
+    background: #e74c3c;
+    padding: 1.125rem 3rem;
+}
+
+
 
 .quinaForm{
     width: 100%;
@@ -75,12 +137,10 @@ input[type="text"]{
 
 .m_t_10 {
     margin-right: 10px;
+
 }
 
-.btn-lg {
-    background: #e74c3c;
-    padding: 1.125rem 3rem;
-}
+
 
 #teste{
     width: 55%;
